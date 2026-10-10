@@ -60,6 +60,31 @@
     color: #55504a;
     line-height: 1.6;
 }
+.whatsApp-btn{
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #25d366;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+.whatsApp-btn:hover{
+    background-color: #128c7e;
+    transform: scale(1.05);
+}
+.whatsApp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
 
 
 @media (max-width:600px) {
